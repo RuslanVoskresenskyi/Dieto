@@ -1,0 +1,30 @@
+@import "src/styles/variables";
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: $white;
+  z-index: 2;
+  box-shadow: 0 -10px 10px 7px rgba($black,0.6);
+  a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    img{
+      width: 40px;
+      margin-right: 10px;
+    }
+    h3{
+      font-size: 18px;
+      text-transform: uppercase;
+      color: $blue;
+    }
+  }
+
+}

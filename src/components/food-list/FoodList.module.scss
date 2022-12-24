@@ -1,0 +1,41 @@
+@import "src/styles/variables";
+
+.food-list{
+  display: flex;
+  flex-wrap: wrap;
+  &-top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid $brown;
+    margin-bottom: 20px;
+    button{
+      padding: 10px 20px;
+      background-color: $blue;
+      margin-top: 5px;
+      color: $white;
+      border-radius: 5px;
+      box-shadow: 0 0 20px -8px rgba($black,0.6);
+      transition: 0.3s;
+      &:hover{
+        box-shadow: 0 0 20px -4px rgba($black,0.6);
+      }
+    }
+  }
+  &-filters{
+    display: flex;
+    padding-bottom: 20px;
+    &-item{
+      margin-right: 20px;
+      div{
+        input{
+          width: 100px;
+          padding: 4px 15px;
+          border-radius: 5px;
+          box-shadow: 0 0 20px -10px rgba($black,0.6);
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
