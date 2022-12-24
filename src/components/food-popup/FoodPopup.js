@@ -1,5 +1,5 @@
 import { useForm } from 'react-hook-form'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import { addFood } from '../../services/FoodService'
 
